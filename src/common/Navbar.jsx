@@ -8,7 +8,7 @@ const Navbar = () => {
     <div className="navbar">
       <div className="logo">
         <img
-          src="./images/image 2.png"
+          src="./images/image-2.png"
           style={{
             width: "2rem",
             height: "2rem",

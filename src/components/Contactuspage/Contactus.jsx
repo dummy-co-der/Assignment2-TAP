@@ -25,8 +25,8 @@ const Contactus = () => {
           <div className="contact_form">
             <div className="left">
               <div className="overlay-img">
-                <img src="./images/Ellipse 793.png" className="overlay-img1" />
-                <img src="./images/Ellipse 794.png" className="overlay-img2" />
+                <img src="./images/Ellipse-793.png" className="overlay-img1" />
+                <img src="./images/Ellipse-794.png" className="overlay-img2" />
               </div>
               <div className="left_content">
                 <h2 style={{ marginTop: "2rem" }}> Contact Information </h2>
@@ -47,7 +47,8 @@ const Contactus = () => {
                 <div className="phone">
                   <IoLocationOutline />
                   <p style={{ marginLeft: "1.8rem" }}>
-                    2nd floor D-32, Street No. 2,<br />
+                    2nd floor D-32, Street No. 2,
+                    <br />
                     New Delhi, 110022
                   </p>
                 </div>

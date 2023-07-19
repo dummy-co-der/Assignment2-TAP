@@ -46,14 +46,14 @@ const Homepage = () => {
           <div className="right" style={{ marginTop: "3rem" }}>
             <img src="./images/Design_xA0_Image_1_.png" />
             <div className="card">
-              <img className="card_img" src="./images/Rectangle 645.png" />
+              <img className="card_img" src="./images/Rectangle-645.png" />
               <img
                 style={{
                   marginLeft: "-3.5rem",
                   position: "absolute",
                   marginTop: "4.8rem",
                 }}
-                src="./images/Ellipse 84.png"
+                src="./images/Ellipse-84.png"
               />
               <div className="card_content">
                 <div className="card_circle">
@@ -78,10 +78,10 @@ const Homepage = () => {
           </h2>
         </div>
         <div className="clients">
-          <img className="image" src="./images/image 13.png" />
-          <img className="image1" src="./images/image 14.png" />
-          <img className="image" src="./images/image 12.png" />
-          <img className="image1" src="./images/image 14.png" />
+          <img className="image" src="./images/image-13.png" />
+          <img className="image1" src="./images/image-14.png" />
+          <img className="image" src="./images/image-12.png" />
+          <img className="image1" src="./images/image-14.png" />
         </div>
       </div>
     </div>
