@@ -1,0 +1,187 @@
+@font-face {
+  font-family: "DM Sans";
+  src: url("../fonts/DM-Sans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("../fonts/SourceSansPro-Regular.ttf") format("truetype");
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 80%;
+}
+
+.heading {
+  margin-top: 4rem;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 4rem;
+  letter-spacing: 0.02rem;
+  color: #000262;
+  font-family: "DM Sans", "Source Sans Pro", sans-serif;
+}
+
+.today {
+  font-size: 3rem;
+  font-weight: 500;
+  letter-spacing: 0.02rem;
+  font-style: italic;
+  color: #000262;
+  font-family: "DM Sans", "Source Sans Pro", sans-serif;
+  white-space: nowrap;
+  margin-top: -2.5rem;
+}
+
+.contact_para {
+  margin: 0;
+  padding: 0;
+  font-family: "DM Sans", "Source Sans Pro", sans-serif;
+}
+
+.contact_form {
+  background-color: white;
+  height: 88vh;
+  display: flex;
+  flex-direction: row;
+  margin-left: 3rem;
+  margin-top: 4rem;
+  font-family: "DM Sans", "Source Sans Pro", sans-serif;
+}
+
+.left {
+  background-image: url("./images/Rectangle 3841.png");
+  width: 35%;
+  color: white;
+}
+
+.left_content {
+  margin-left: 2rem;
+  margin-top: -40rem;
+  margin-right: 1rem;
+  font-family: "DM Sans", "Source Sans Pro", sans-serif;
+}
+
+.left_para {
+  line-height: 1.5rem;
+  font-size: 0.9rem;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2rem;
+  margin-top: 5rem;
+}
+
+.phone {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.overlay-img {
+  position: relative;
+}
+
+.overlay-img1 {
+  position: relative;
+  margin-top: 17.5rem;
+  margin-left: 14.1rem;
+}
+
+.overlay-img2 {
+  position: absolute;
+  margin-top: 23rem;
+  margin-left: -14rem;
+}
+
+.right {
+  color: black;
+}
+
+.socials_div {
+  margin-top: 12rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.socials-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin-left: 0.4rem;
+}
+
+.first_section {
+  display: flex;
+  flex-direction: row;
+  margin-top: -1rem;
+  margin-left: 1.5rem;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.form_group {
+  margin-top: 5rem;
+  margin-left: 3rem;
+  width: 45%;
+}
+
+.form_group-ms {
+  margin-top: 5rem;
+  margin-left: 3rem;
+  width: 85%;
+}
+
+.third_section {
+  display: flex;
+  flex-direction: row;
+}
+
+.form_group1 {
+  margin-top: 4rem;
+  margin-left: 1rem;
+}
+
+#name {
+  margin-top: 0.5rem;
+  text-align: left;
+  margin-left: -0.5rem;
+  width: 100%;
+  padding: 10px;
+  border: 0;
+  border-bottom: 2px solid #ccc;
+  font-family: "DM Sans", "Source Sans Pro", sans-serif;
+}
+
+#selection {
+  margin-top: 1rem;
+}
+
+.fourth_section {
+  margin-top: -1rem;
+}
+
+.custom_button1 {
+  background-color: #361a3a;
+  color: #ffffff;
+  border-radius: 0.2rem;
+  text-align: center;
+  box-shadow: 0 0.8rem 3.4rem rgba(40, 44, 109, 0.3100000024);
+  cursor: pointer;
+  padding: 1rem 3rem;
+  font-family: "DM Sans", "Source Sans Pro", sans-serif;
+  white-space: nowrap;
+  font-size: 1rem;
+  font-weight: 700;
+  margin-top: 2rem;
+  margin-left: 30rem;
+}

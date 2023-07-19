@@ -8,7 +8,7 @@ const Homepage = () => {
       <Navbar />
       <div style={{ backgroundColor: "whitesmoke", height: "90vh" }}>
         <div className="home_content">
-          <div className="left" style={{ marginTop: "3rem" }}>
+          <div style={{ marginTop: "3rem" }}>
             <div className="paragraph">
               <p>
                 Tailored digital <br />
