@@ -55,6 +55,7 @@
 .left {
   background-image: url("../images/Rectangle-3841.png");
   width: 35%;
+  height: 100%;
   color: white;
 }
 
@@ -85,12 +86,13 @@
 
 .overlay-img {
   position: relative;
+  margin-top: 1.6rem;
 }
 
 .overlay-img1 {
   position: relative;
-  margin-top: 16.6rem;
-  margin-left: 12.8rem;
+  margin-top: 15rem;
+  margin-left: 13.8rem;
 }
 
 .overlay-img2 {
