@@ -1,0 +1,201 @@
+@font-face {
+  font-family: "DM Sans";
+  src: url("../fonts/DM-Sans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("../fonts/SourceSansPro-Regular.ttf") format("truetype");
+}
+
+.home_content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 80%;
+}
+
+.paragraph {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 4rem;
+  letter-spacing: 0.02rem;
+  color: #000262;
+  font-family: "DM Sans", "Source Sans Pro", sans-serif;
+}
+
+.presence {
+  font-size: 4rem;
+  font-weight: 500;
+  line-height: 1.3025;
+  letter-spacing: 0.02rem;
+  font-style: italic;
+  color: #706fe5;
+  font-family: "DM Sans", "Source Sans Pro", sans-serif;
+  white-space: nowrap;
+  border: solid 0.4rem #706fe5;
+  padding: 0.5rem;
+}
+
+.dots {
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  border: solid 0.5rem #706fe5;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border-radius: 1.4rem;
+}
+
+.para {
+  max-width: 55.1rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.3025;
+  color: #2e3e5c;
+  font-family: "DM Sans", "Source Sans Pro", sans-serif;
+  margin-top: 6rem;
+}
+
+.card_img {
+  margin-left: 6rem;
+  margin-top: -2rem;
+}
+
+.card_content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.trusted {
+  margin: 0 auto;
+  max-width: 80%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.trusted_para {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.02rem;
+  text-transform: capitalize;
+  color: #757575;
+  font-family: "DM Sans", "Source Sans Pro", sans-serif;
+  white-space: nowrap;
+}
+
+.trusted_heading {
+  color: #000000;
+  font-family: "DM Sans", "Source Sans Pro", sans-serif;
+}
+
+.clients {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.image {
+  width: 15%;
+}
+
+.image1 {
+  width: 25%;
+}
+
+.card_circle {
+  display: flex;
+  flex-direction: column;
+}
+
+.circle_img1 {
+  background-image: url("http://theadzplug.com/assets/ellipse-85-bg.png");
+  width: 2rem;
+  height: 2rem;
+  border: solid 0.1rem #e9e8fa;
+  box-sizing: border-box;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 2rem;
+  margin-top: -9rem;
+  margin-left: 9rem;
+}
+
+.circle_img2 {
+  background-image: url("http://theadzplug.com/assets/ellipse-86-bg.png");
+  width: 2rem;
+  height: 2rem;
+  border: solid 0.1rem #e9e8fa;
+  box-sizing: border-box;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 2rem;
+  margin-top: -2rem;
+  margin-left: 10rem;
+}
+
+.circle_img3 {
+  background-image: url("http://theadzplug.com/assets/ellipse-87-bg.png");
+  width: 2rem;
+  height: 2rem;
+  border: solid 0.1rem #e9e8fa;
+  box-sizing: border-box;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 2rem;
+  margin-top: -2rem;
+  margin-left: 11rem;
+}
+
+.circle_img4 {
+  background-image: url("http://theadzplug.com/assets/ellipse-88-bg.png");
+  width: 2rem;
+  height: 2rem;
+  border: solid 0.1rem #e9e8fa;
+  box-sizing: border-box;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 2rem;
+  margin-top: -2rem;
+  margin-left: 12rem;
+}
+
+.circle_img5 {
+  background-image: url("http://theadzplug.com/assets/ellipse-89-bg.png");
+  width: 2rem;
+  height: 2rem;
+  border: solid 0.1rem #e9e8fa;
+  box-sizing: border-box;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 2rem;
+  margin-top: -2rem;
+  margin-left: 13rem;
+}
+
+.stats {
+  margin-left: 9rem;
+  margin-top: 0.5rem;
+  font-family: "DM Sans", "Source Sans Pro", sans-serif;
+}
+
+.stars {
+  font-family: "DM Sans", "Source Sans Pro", sans-serif;
+  margin-left: 9rem;
+  font-size: 1rem;
+  margin-top: -1rem;
+  font-weight: 500;
+  letter-spacing: 0.02rem;
+  line-height: 1.5rem;
+}

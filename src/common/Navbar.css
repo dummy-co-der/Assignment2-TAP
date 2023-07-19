@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "DM Sans";
+  src: url("../fonts/DM-Sans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("../fonts/SourceSansPro-Regular.ttf") format("truetype");
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: center;
+  max-width: 80%;
+  background-color: #ffffff;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+}
+
+.theadzplug {
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #170f49;
+}
+
+.navbar_nav {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.list_item {
+  margin-right: 5rem;
+  font-size: 1rem;
+  font-family: "Inter", "Source Sans Pro", sans-serif;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.custom_button {
+  background-color: #361a3a;
+  color: #ffffff;
+  height: 100%;
+  border-radius: 0.2rem;
+  text-align: center;
+  box-shadow: 0 0.8rem 3.4rem rgba(40, 44, 109, 0.3100000024);
+  cursor: pointer;
+  padding: 1rem 3rem;
+  font-family: "DM Sans", "Source Sans Pro", sans-serif;
+  white-space: nowrap;
+  font-size: 1rem;
+  font-weight: 700;
+}
